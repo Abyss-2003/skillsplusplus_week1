@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <title>Form</title>
+
+</head>
+
+<body>
+    <h1>Skill++ Survey Form</h1>
+    <div id="headtext">Thank you for taking the time to help us improve the platform</div>
+    <div id="form">
+        <label for="name">What is your name?</label><br />
+        <input type="text" id="name" name="" placeholder="Enter your name"><br><br>
+        <label for="email">What is your email address?</label><br />
+        <input type="email" id="email" name="" placeholder="Enter Email Address"><br><br>
+        <label for="age">What is your age?</label><br />
+        <input type="number" id="age" name="" placeholder="Enter your Age"><br><br>
+        <label for="describe">Which option best describes your current role?</label><br>
+        <select name="" id="describe">
+            <option value="student">Student</option>
+            <option value="web">Web developer</option>
+            <option value="app">App developer</option>
+            <option value="design">Designer</option>
+        </select><br><br>
+        <div>Would you recommend[Company Name] to a friend?</div>
+        <input type="radio" id="definitely" name="recommend">
+        <label for="definitely">Definitely</label><br>
+        <input type="radio" id="maybe" name="recommend">
+        <label for="maybe">Maybe</label><br>
+        <input type="radio" id="notsure" name="recommend">
+        <label for="notsure">Not Sure</label><br><br>
+        <div>Would you like to see improved?</div>
+        <div>(Check all that apply)</div>
+        <input type="checkbox" id="front">
+        <label for="front">Front-end projects</label><br>
+        <input type="checkbox" id="back">
+        <label for="back">Back-end projects</label><br>
+        <input type="checkbox" id="challenges">
+        <label for="challenges">Challenges</label><br><br>
+        <div>Any comments or suggestions?</div>
+        <textarea id="comment"></textarea><br><br>
+        <input type="submit" id="submit"></div>
+        
+    </div>
+</body>
+
+</html>

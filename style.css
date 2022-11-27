@@ -1,0 +1,54 @@
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+body{
+    background: green;
+}
+h1,#headtext{
+    text-align: center;
+    color: white;
+}
+h1{
+    font-size:7vh;
+}
+#headtext{
+    font-style: italic;
+    font-size: 3vh;
+    padding-bottom: 2vh;
+}
+#form{
+    padding: 2vh;
+    font-size:2.4vh;
+    margin:auto;
+    width:35%;
+    background: #555d50;
+    height:100%;
+}
+#name,#email,#age,#describe{
+    width:50%;
+    height:3vh;
+    background-color: grey;
+    color:white;
+    font-size: 2.4vh;
+}
+option{
+    font-size: 2.4vh;
+}
+#submit{
+    background-color: rgb(56, 212, 56);
+    color:white;
+    font-size: 2vh;
+    width:25%;
+    height:4vh;
+    border-radius: 9%;
+}
+#comment{
+    height:12vh;
+    width:50%;
+    font-size:2.4vh;
+    background-color: grey;
+    color:white;
+}
+label,div{
+    color:white;
+}
